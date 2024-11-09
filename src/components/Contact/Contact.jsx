@@ -52,7 +52,11 @@
 // export default Contact
 
 const Contact = () => {
-	return <div>Contact</div>
+	return (
+		<div className='w-full min-h-screen flex justify-center items-center'>
+			<h1>Contact Page</h1>
+		</div>
+	)
 }
 
 export default Contact
