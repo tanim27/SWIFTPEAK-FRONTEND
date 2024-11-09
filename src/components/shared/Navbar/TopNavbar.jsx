@@ -27,10 +27,10 @@ const TopNavbar = () => {
 					<h1 className='font-helveticaNeue font-normal text-3xl md:text-4xl'>
 						SwiftPeak
 					</h1>
-					<nav className='md:flex flex-col gap-2'>
+					<nav className='flex gap-2'>
 						<Link href='/'>
 							<p
-								className={`h-[20px] relative group pl-6 ${
+								className={`relative group pl-6 ${
 									activeLink === 'Home' && !hoveredLink ? 'text-active' : ''
 								}`}
 								onClick={() => handleLinkClick('Home')}
@@ -51,7 +51,7 @@ const TopNavbar = () => {
 
 						<Link href='/works'>
 							<p
-								className={`h-[20px] relative group pl-6 ${
+								className={`relative group pl-6 ${
 									activeLink === 'Works' && !hoveredLink ? 'text-active' : ''
 								}`}
 								onClick={() => handleLinkClick('Works')}
