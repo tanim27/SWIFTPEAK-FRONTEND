@@ -1,15 +1,15 @@
-import Home from '@/components/Home/Home'
+import About from '@/components/About/About'
 
 export const metadata = {
-	title: 'SwiftPeak | Home',
+	title: 'SwiftPeak | About',
 	description: 'SwifPeak Digital Solutions',
 }
 
 const page = () => {
 	return (
-		<>
-			<Home />
-		</>
+		<div>
+			<About />
+		</div>
 	)
 }
 
