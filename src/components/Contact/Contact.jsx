@@ -53,8 +53,10 @@
 
 const Contact = () => {
 	return (
-		<div className='w-full min-h-screen flex justify-center items-center'>
-			<h1>Contact Page</h1>
+		<div className='w-full h-full min-h-screen flex flex-col justify-center items-center'>
+			<div className='w-full h-full flex flex-col justify-center items-center'>
+				<h1>Contact Page</h1>
+			</div>
 		</div>
 	)
 }
